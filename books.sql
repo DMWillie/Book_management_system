@@ -113,7 +113,7 @@ CREATE TABLE `history` (
 -- Table structure for `review`
 -- ----------------------------
 DROP TABLE IF EXISTS `review`;
-CREATE TABLE `history` (
+CREATE TABLE `review` (
   `rid` int(11) NOT NULL AUTO_INCREMENT,
   `aid` int(11) DEFAULT NULL,
   `bid` int(11) DEFAULT NULL,
